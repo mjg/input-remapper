@@ -55,7 +55,7 @@ Consider using a different key for the combination than shift. You could use
 
 The second option is to release the modifier in your combination by writing
 the modifier one more time. This will write lowercase "b" characters. To make
-this work shift has to be injected via key-mappers devices though, which just
+this work shift has to be injected via input-mapper's devices though, which just
 means it has to be forwarded. So the complete mapping for this would look like:
 
 - `Shift L + a` -> `key(Shift_L).hold(b)`
